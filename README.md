@@ -1,6 +1,6 @@
 # Booking Platform
 
-A platform for booking tickets across multiple train companies.
+A distributed platform for booking tickets across multiple train companies written in Java Spring Boot.
 
 ## Description
 
