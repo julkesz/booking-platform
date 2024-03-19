@@ -34,3 +34,4 @@ firebase emulators:start --project booking-platform
 ```
 mvn spring-boot:run
 ```
+3. Open http://localhost:8080/ to use the application.
