@@ -23,7 +23,7 @@ let firebaseConfig;
 if (location.hostname === "localhost") {
   firebaseConfig = {
     apiKey: "AIzaSyBoLKKR7OFL2ICE15Lc1-8czPtnbej0jWY",
-    projectId: "demo-distributed-systems-kul",
+    projectId: "booking-platform",
   };
 } else {
   firebaseConfig = {

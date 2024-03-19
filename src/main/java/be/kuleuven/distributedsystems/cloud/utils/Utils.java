@@ -16,7 +16,7 @@ import java.util.List;
 
 public class Utils {
     public static final String API_KEY  = "JViZPgNadspVcHsMbDFrdGg0XXxyiE";
-    public static final String LOCAL_PROJECT_ID = "demo-distributed-systems-kul";
+    public static final String LOCAL_PROJECT_ID = "booking-platform";
     public static final String CLOUD_PROJECT_ID = "train-companies-ds";
 
     public static final List<String> EXTERNAL_TRAIN_COMPANIES = Arrays.asList(
