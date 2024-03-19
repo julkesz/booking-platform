@@ -15,3 +15,22 @@ Customers browse the trains that are available across different train companies 
 - **ACID properties** are satisfied: users cannot book already reserved seat and they cannot confirm their quotes partially. For example, to satisfy atomicity either all quotes are successfully reserved, or none of them are reserved at all. If the application crashes during operation, it will try complete the booking after recovering. 
 
 - All the bookings and users' information are stored in a **Cloud Firestore database**.
+
+## Getting started
+### Dependencies
+- Java 17 SDK
+- Maven
+- Firebase CLI
+
+Firebase CLI can be installed by following instructuions found on [Firebase CLI reference](https://firebase.google.com/docs/cli). If you choose
+the standalone binary option, it is recommended to put this executable in the project folder (next to the firebase.json file). When you run this standalone binary, a new terminal will open where you can run the firebase commands.
+
+### Running the application locally
+1. Open Firebase CLI and type:
+```
+firebase emulators:start --project booking-platform
+```
+2. Once the emulators are running, you can start the application using Maven:
+```
+mvn spring-boot:run
+```
